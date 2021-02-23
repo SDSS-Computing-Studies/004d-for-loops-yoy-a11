@@ -47,4 +47,4 @@ if i <= 0:
 else:
     for j in range(1, i+1):
         s *= j
-    print(s)
+    print(str(i) + "! is " + str(s))
