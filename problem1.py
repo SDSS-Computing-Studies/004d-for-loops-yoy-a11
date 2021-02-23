@@ -22,5 +22,6 @@ enter a number:4
 ****
 
 """
-number = int(input("enter the width and height of a box."))
-for the width and height should be two integer values that both less than 10
+number = int(input("enter a number:"))
+for i in range(number):
+    print("*"*number)
