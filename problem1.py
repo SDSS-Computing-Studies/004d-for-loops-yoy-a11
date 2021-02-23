@@ -22,3 +22,5 @@ enter a number:4
 ****
 
 """
+number = int(input("enter the width and height of a box."))
+for the width and height should be two integer values that both less than 10

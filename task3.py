@@ -1,7 +1,7 @@
 #! python3
 """
 ##### Task 3
-Given a typle that contains a series of numbers, list all the ones that are
+Given a tuple that contains a series of numbers, list all the ones that are
 divisible by 5
 (2 points)
 
@@ -18,3 +18,6 @@ list of numbers
 """
 
 numList = (25, 8, 10, 11, 33, 30, 51, 75, 63, 14, 20, 99)
+for i in list(numList):
+    if(i%5 == 0):
+        print(i)
